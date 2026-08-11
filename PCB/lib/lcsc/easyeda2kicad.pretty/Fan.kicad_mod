@@ -1,0 +1,111 @@
+(footprint "Fan"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x07, 2.54mm pitch, single row")
+	(tags "Through hole pin header THT 1x07 2.54mm single row")
+	(property "Reference" "REF**"
+		(at -10.425 0.28 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3466b895-1c72-416c-9d51-92e3ec856986")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1.3\" TFT"
+		(at 9.575 0.28 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24761f22-3990-4108-86ac-72711be33436")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78a43b91-1afc-4810-998a-9fdd7571bda3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68f09f4f-8f23-4b72-a2a5-e09358dbf97e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "+"
+		(at -1.93 1.88 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "06041bca-8426-4604-be31-474c31c84c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 0.61 1.88 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a30e918c-b9e7-45fd-9693-f34151588756")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.06 1.01 180)
+		(layer "F.Fab")
+		(uuid "d867173e-2386-4e36-9fb5-34e4bf24d2c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.28 0.01 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aaa27143-6a0b-4aab-bc9d-163d89dff3a7")
+	)
+	(pad "2" thru_hole circle
+		(at 1.26 0.01 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d445cb8-6e4a-4e91-a426-738f1374b3f5")
+	)
+	(embedded_fonts no)
+)
