@@ -1,4 +1,4 @@
-26173787299489151
+26175573907499129
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104894,6 +104894,13 @@ Through hole pin header THT 1x07 2.54mm single row
 0
 2
 2
+easyeda2kicad
+PowerPad
+Through hole straight pin header, 1x07, 2.54mm pitch, single row
+Through hole pin header THT 1x07 2.54mm single row
+0
+1
+1
 easyeda2kicad
 SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 AO4407A
