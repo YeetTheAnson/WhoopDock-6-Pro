@@ -105,7 +105,7 @@ Note: The BQ25890 has a maximum input voltage limit of 14V. The CH224K is config
 
 ## Firmware Setup
 
-The current firmware is for connection validation only, and isn't production ready yet
+The current firmware is for connection validation only, and isn't production ready yet. Your batteries WILL charge
 ### How to flash the firmware
 
 1. **Connect to the Programming Port:** Plug a USBC cable into the flush USBC port (not the protruding power port).
@@ -132,21 +132,21 @@ All STL files for the case is in `/production/3dPrint/`.
 
 ### Assembly
 
-To fit the heatsinks properly, the bottom side of the PCB must be flat for proper contact
-
-1. Trim the BetaFPV BT2.0 connector legs. Make a test fit **before** soldering to ensure it's not protruding.
+1. Create a solder bridge at CFG3 to set the Ch224K to 12V
+![image](assets/PDConfig.png)
+2. Trim the BetaFPV BT2.0 connector legs. Make a test fit **before** soldering to ensure it's not protruding.
 ![image](assets/step1.webp)
-2. Place the 3D printed `Buttons.stl` into the holes on `topCase.stl`.
+3. Place the 3D printed `Buttons.stl` into the holes on `topCase.stl`.
 ![image](assets/step2.png)
-3. Screw in the 4010 blower fan into the bottom case using 4x M2x6mm screws.
+4. Screw in the 4010 blower fan into the bottom case using 4x M2x6mm screws.
 ![image](assets/step3.png)
-4. Snap the PCB into the top case.
+5. Snap the PCB into the top case.
 ![image](assets/step4.png)
-5. Apply thermal adhesives on the two heatsink and attach to the PCB.
+6. Apply thermal adhesives on the two heatsink and attach to the PCB.
 ![image](assets/step5.png)
-6. Secure the bottom case onto the top case and screw in using 4x M2x6mm screws. Remember to solder the solder the fan wires before closing the case.
+7. Secure the bottom case onto the top case and screw in using 4x M2x6mm screws. Remember to solder the solder the fan wires before closing the case.
 ![image](assets/step6.png)
-7. Attach the TPU  `Feets.stl` to the bottom to cover the screws and prevent sliding. You may use glue to keep the feets in.
+8. Attach the TPU  `Feets.stl` to the bottom to cover the screws and prevent sliding. You may use glue to keep the feets in.
 ![image](assets/step7.png)
 
 
