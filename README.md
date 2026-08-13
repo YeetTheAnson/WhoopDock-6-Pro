@@ -8,7 +8,7 @@
 
 This is my custom BT2.0 battery charger! I started this project because I wanted a programmable 1S LiPo/LiHV multi channel charger that included discharging and storage mode. Commercial chargers like the hexachargers or whoopstor has all the mentioned features but it's limited and lack customizability.
 
-This charger is designed primarily for use with tinywhoop FPV drone batteries using the BetaFPV BT2.0 connector, but its 5A charge current also allows it to be used with larger cylindrical cell batteries for long range drones.
+This charger is designed primarily for tinywhoop FPV drone batteries that uses the BetaFPV BT2.0 connector, but its 5A charge current also allows it to be used with larger cylindrical cell batteries for long range drones.
 
 
 | Feature | WhoopDock 6 Pro | BetaFPV Hexacharger | ViFly WhoopStor V3 |
@@ -31,8 +31,8 @@ If you don't like how it works, you could always program it to replicate the beh
 
 ### Advantages:
 
-* **Current Delivery & Discharging:** The WhoopDock is much more powerful when compared to commercial options. With the BQ25890, you can charge large batteries up to 5A, and has small 64mA interval to precisely control the charge current of small batteries. The 1.16A discharge rate means your large batteries will hit storage voltage significantly faster, and can be adjusted to a lower current for smaller batteries.
-* **Granular Control:** Instead of being locked into specific presets, the 16mV step resolution allows you to charge different battery chemistries or set a custom charge termination voltage.
+* **Current Delivery:** The WhoopDock is much more powerful compared to commercial chargers from BetaFPV and ViFly. With the BQ25890, you can charge large batteries up to 5A, or use the small 64mA interval to precisely control the charge current of small batteries. The 1.16A discharge rate means your large batteries will hit storage voltage way faster, and can be adjusted lower for smaller batteries.
+* **Fine Control:** Instead of being forced to choose from specific presets, the 16mV step resolution allows you to charge different battery chemistries or set a custom charge termination voltage.
 * **Connectivity:** Having Bluetooth and WiFi onboard allows you to monitor charge cycles from your phone, and receive push notifications when charging is complete.
 
 ---
@@ -66,8 +66,8 @@ Note: The BQ25890 has a maximum input voltage limit of 14V. The CH224K is config
 
 ### External Connections
 
-* **Main Power (Protruding USB-C):** This is the primary power input and supports up to 12v 5A (60W)
-* **Programming (Flush USB-C):** Connected directly to the ESP32 USB data pins for programming. Cannot be accessed while inside the case.
+* **Main Power (Protruding USB C):** This is the primary power input and supports up to 12v 5A (60W)
+* **Programming (Flush USB C):** Connected directly to the ESP32 USB data pins for programming. Cannot be accessed while inside the case.
 * **Direct Power Pads:** Exposed solder pads on the PCB to bypass the USBC port entirely. Solder XT30 connectors here to bypass the power limit of USB C
 
 
