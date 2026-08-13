@@ -23,7 +23,7 @@ This charger is designed primarily for use with tinywhoop FPV drone batteries us
 | **Programmability** | **Yes** (Arduino compatible) | No (Closed source) | No (Closed source) |
 | **WiFi & Bluetooth** | **Yes** | No | No |
 | **Audio Feedback** | **Yes** | **Yes** | **Yes** |
-| **Active Cooling** | **Yes** (Programmable curve) | **Yes** | **Yes** |
+| **Active Cooling** | **Yes** (Programmable fan curve) | **Yes** | **Yes** |
 | **Reverse Polarity Protection** | **Yes** | No | **Yes** |
 
 If you don't like how it works, you could always program it to replicate the behavior of your favorite charger.
@@ -154,7 +154,7 @@ To fit the heatsinks properly, the bottom side of the PCB must be flat for prope
 
 ## Bill of Material
 
-Note: The prices in USD are converted as of 13 August 2026 and prices may fluctuate. Promo codes will be applied before checkout to bring the costs down.
+Note: The prices in USD are converted as of 13 August 2026 and prices may fluctuate. Promo codes will be applied before checkout to bring the costs down. And yes, the costs of separate components are cheaper than JLCPCB assembly.
 
 | Item Name | Link | Vendor | Quantity | Total Price (USD) |
 | --- | --- | --- | --- | ---: |
