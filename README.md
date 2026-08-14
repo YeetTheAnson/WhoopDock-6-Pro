@@ -35,6 +35,10 @@ If you don't like how it works, you could always program it to replicate the beh
 * **Fine Control:** Instead of being forced to choose from specific presets, the 16mV step resolution allows you to charge different battery chemistries or set a custom charge termination voltage.
 * **Connectivity:** Having Bluetooth and WiFi onboard allows you to monitor charge cycles from your phone, and receive push notifications when charging is complete.
 
+### Drawbacks:
+* **Max power:** While the WhoopDock 60W power is still more than the hexacharger's 24W, the pro version supports up to 78W. The 60W limit is due to the USB C specification, and it supports up to 130W if powered directly by bypassing USB connectors.
+* **No PH2.0 connector:** This is intentional by design as PH2.0 is an inferior connector compared to BT2.0, and it only supports a continuous charge current of 2A.
+
 ---
 
 ## Hardware Specifications
